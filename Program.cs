@@ -16,7 +16,7 @@ namespace Overworld_Shuffle_tracker
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new OWTBox());
         }
     }
 }

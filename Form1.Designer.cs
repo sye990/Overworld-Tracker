@@ -1,6 +1,6 @@
 ﻿namespace Overworld_Shuffle_tracker
 {
-    partial class Form1
+    partial class OWTBox
     {
         /// <summary>
         /// Required designer variable.
@@ -28,11 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.South = new System.Windows.Forms.GroupBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OWTBox));
+            this.SouthWestBox = new System.Windows.Forms.GroupBox();
+            this.SouthEastBox = new System.Windows.Forms.GroupBox();
+            this.NorthWestBox = new System.Windows.Forms.GroupBox();
+            this.NorthBox = new System.Windows.Forms.GroupBox();
+            this.NorthEastBox = new System.Windows.Forms.GroupBox();
             this.SWBox1 = new System.Windows.Forms.ComboBox();
             this.SWBox2 = new System.Windows.Forms.ComboBox();
             this.SWBox3 = new System.Windows.Forms.ComboBox();
@@ -52,76 +53,88 @@
             this.NBox1 = new System.Windows.Forms.ComboBox();
             this.NWBox2 = new System.Windows.Forms.ComboBox();
             this.NWBox1 = new System.Windows.Forms.ComboBox();
-            this.South.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
+            this.SouthWestBox.SuspendLayout();
+            this.SouthEastBox.SuspendLayout();
+            this.NorthWestBox.SuspendLayout();
+            this.NorthBox.SuspendLayout();
+            this.NorthEastBox.SuspendLayout();
             this.SuspendLayout();
             // 
-            // South
+            // SouthWestBox
             // 
-            this.South.Controls.Add(this.SWBox5);
-            this.South.Controls.Add(this.SWBox4);
-            this.South.Controls.Add(this.SWBox3);
-            this.South.Controls.Add(this.SWBox2);
-            this.South.Controls.Add(this.SWBox1);
-            this.South.Location = new System.Drawing.Point(12, 12);
-            this.South.Name = "South";
-            this.South.Size = new System.Drawing.Size(290, 110);
-            this.South.TabIndex = 0;
-            this.South.TabStop = false;
-            this.South.Text = "South West";
+            this.SouthWestBox.BackColor = System.Drawing.Color.Transparent;
+            this.SouthWestBox.Controls.Add(this.SWBox5);
+            this.SouthWestBox.Controls.Add(this.SWBox4);
+            this.SouthWestBox.Controls.Add(this.SWBox3);
+            this.SouthWestBox.Controls.Add(this.SWBox2);
+            this.SouthWestBox.Controls.Add(this.SWBox1);
+            this.SouthWestBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SouthWestBox.ForeColor = System.Drawing.SystemColors.Control;
+            this.SouthWestBox.Location = new System.Drawing.Point(12, 285);
+            this.SouthWestBox.Name = "SouthWestBox";
+            this.SouthWestBox.Size = new System.Drawing.Size(291, 118);
+            this.SouthWestBox.TabIndex = 0;
+            this.SouthWestBox.TabStop = false;
+            this.SouthWestBox.Text = "South West";
             // 
-            // groupBox1
+            // SouthEastBox
             // 
-            this.groupBox1.Controls.Add(this.SEBox5);
-            this.groupBox1.Controls.Add(this.SEBox4);
-            this.groupBox1.Controls.Add(this.SEBox3);
-            this.groupBox1.Controls.Add(this.SEBox2);
-            this.groupBox1.Controls.Add(this.SEBox1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 147);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(290, 110);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "South East";
+            this.SouthEastBox.BackColor = System.Drawing.Color.Transparent;
+            this.SouthEastBox.Controls.Add(this.SEBox5);
+            this.SouthEastBox.Controls.Add(this.SEBox4);
+            this.SouthEastBox.Controls.Add(this.SEBox3);
+            this.SouthEastBox.Controls.Add(this.SEBox2);
+            this.SouthEastBox.Controls.Add(this.SEBox1);
+            this.SouthEastBox.ForeColor = System.Drawing.SystemColors.Control;
+            this.SouthEastBox.Location = new System.Drawing.Point(360, 285);
+            this.SouthEastBox.Name = "SouthEastBox";
+            this.SouthEastBox.Size = new System.Drawing.Size(290, 118);
+            this.SouthEastBox.TabIndex = 1;
+            this.SouthEastBox.TabStop = false;
+            this.SouthEastBox.Text = "South East";
             // 
-            // groupBox2
+            // NorthWestBox
             // 
-            this.groupBox2.Controls.Add(this.NWBox2);
-            this.groupBox2.Controls.Add(this.NWBox1);
-            this.groupBox2.Location = new System.Drawing.Point(498, 147);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(290, 110);
-            this.groupBox2.TabIndex = 2;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "North West";
+            this.NorthWestBox.BackColor = System.Drawing.Color.Transparent;
+            this.NorthWestBox.Controls.Add(this.NWBox2);
+            this.NorthWestBox.Controls.Add(this.NWBox1);
+            this.NorthWestBox.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.NorthWestBox.Location = new System.Drawing.Point(12, 25);
+            this.NorthWestBox.Name = "NorthWestBox";
+            this.NorthWestBox.Size = new System.Drawing.Size(291, 110);
+            this.NorthWestBox.TabIndex = 2;
+            this.NorthWestBox.TabStop = false;
+            this.NorthWestBox.Text = "North West";
             // 
-            // groupBox3
+            // NorthBox
             // 
-            this.groupBox3.Controls.Add(this.NBox4);
-            this.groupBox3.Controls.Add(this.NBox3);
-            this.groupBox3.Controls.Add(this.NBox2);
-            this.groupBox3.Controls.Add(this.NBox1);
-            this.groupBox3.Location = new System.Drawing.Point(498, 12);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(290, 110);
-            this.groupBox3.TabIndex = 3;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "North";
+            this.NorthBox.BackColor = System.Drawing.Color.Transparent;
+            this.NorthBox.Controls.Add(this.NBox4);
+            this.NorthBox.Controls.Add(this.NBox3);
+            this.NorthBox.Controls.Add(this.NBox2);
+            this.NorthBox.Controls.Add(this.NBox1);
+            this.NorthBox.ForeColor = System.Drawing.SystemColors.Control;
+            this.NorthBox.Location = new System.Drawing.Point(174, 157);
+            this.NorthBox.Name = "NorthBox";
+            this.NorthBox.Size = new System.Drawing.Size(314, 110);
+            this.NorthBox.TabIndex = 3;
+            this.NorthBox.TabStop = false;
+            this.NorthBox.Text = "North";
             // 
-            // groupBox4
+            // NorthEastBox
             // 
-            this.groupBox4.Controls.Add(this.NEBox3);
-            this.groupBox4.Controls.Add(this.NEBox2);
-            this.groupBox4.Controls.Add(this.NEBox1);
-            this.groupBox4.Location = new System.Drawing.Point(18, 303);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(290, 110);
-            this.groupBox4.TabIndex = 4;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "North East";
+            this.NorthEastBox.BackColor = System.Drawing.Color.Transparent;
+            this.NorthEastBox.Controls.Add(this.NEBox3);
+            this.NorthEastBox.Controls.Add(this.NEBox2);
+            this.NorthEastBox.Controls.Add(this.NEBox1);
+            this.NorthEastBox.ForeColor = System.Drawing.SystemColors.Control;
+            this.NorthEastBox.Location = new System.Drawing.Point(360, 25);
+            this.NorthEastBox.Name = "NorthEastBox";
+            this.NorthEastBox.Size = new System.Drawing.Size(290, 110);
+            this.NorthEastBox.TabIndex = 4;
+            this.NorthEastBox.TabStop = false;
+            this.NorthEastBox.Text = "North East";
+            this.NorthEastBox.Enter += new System.EventHandler(this.NorthEastBox_Enter);
             // 
             // SWBox1
             // 
@@ -175,7 +188,7 @@
             "Natives Village",
             "Dao",
             "Pyramid"});
-            this.SWBox2.Location = new System.Drawing.Point(6, 46);
+            this.SWBox2.Location = new System.Drawing.Point(6, 55);
             this.SWBox2.Name = "SWBox2";
             this.SWBox2.Size = new System.Drawing.Size(122, 21);
             this.SWBox2.TabIndex = 7;
@@ -203,7 +216,7 @@
             "Natives Village",
             "Dao",
             "Pyramid"});
-            this.SWBox3.Location = new System.Drawing.Point(6, 73);
+            this.SWBox3.Location = new System.Drawing.Point(6, 91);
             this.SWBox3.Name = "SWBox3";
             this.SWBox3.Size = new System.Drawing.Size(122, 21);
             this.SWBox3.TabIndex = 7;
@@ -259,7 +272,7 @@
             "Natives Village",
             "Dao",
             "Pyramid"});
-            this.SWBox5.Location = new System.Drawing.Point(162, 46);
+            this.SWBox5.Location = new System.Drawing.Point(162, 55);
             this.SWBox5.Name = "SWBox5";
             this.SWBox5.Size = new System.Drawing.Size(122, 21);
             this.SWBox5.TabIndex = 7;
@@ -287,10 +300,11 @@
             "Natives Village",
             "Dao",
             "Pyramid"});
-            this.SEBox5.Location = new System.Drawing.Point(162, 46);
+            this.SEBox5.Location = new System.Drawing.Point(162, 55);
             this.SEBox5.Name = "SEBox5";
             this.SEBox5.Size = new System.Drawing.Size(122, 21);
             this.SEBox5.TabIndex = 7;
+            this.SEBox5.SelectedIndexChanged += new System.EventHandler(this.SEBox5_SelectedIndexChanged);
             // 
             // SEBox4
             // 
@@ -343,7 +357,7 @@
             "Natives Village",
             "Dao",
             "Pyramid"});
-            this.SEBox3.Location = new System.Drawing.Point(6, 76);
+            this.SEBox3.Location = new System.Drawing.Point(6, 91);
             this.SEBox3.Name = "SEBox3";
             this.SEBox3.Size = new System.Drawing.Size(122, 21);
             this.SEBox3.TabIndex = 9;
@@ -371,7 +385,7 @@
             "Natives Village",
             "Dao",
             "Pyramid"});
-            this.SEBox2.Location = new System.Drawing.Point(6, 46);
+            this.SEBox2.Location = new System.Drawing.Point(6, 55);
             this.SEBox2.Name = "SEBox2";
             this.SEBox2.Size = new System.Drawing.Size(122, 21);
             this.SEBox2.TabIndex = 10;
@@ -511,7 +525,7 @@
             "Natives Village",
             "Dao",
             "Pyramid"});
-            this.NBox4.Location = new System.Drawing.Point(162, 73);
+            this.NBox4.Location = new System.Drawing.Point(186, 73);
             this.NBox4.Name = "NBox4";
             this.NBox4.Size = new System.Drawing.Size(122, 21);
             this.NBox4.TabIndex = 7;
@@ -539,7 +553,7 @@
             "Natives Village",
             "Dao",
             "Pyramid"});
-            this.NBox3.Location = new System.Drawing.Point(162, 19);
+            this.NBox3.Location = new System.Drawing.Point(186, 19);
             this.NBox3.Name = "NBox3";
             this.NBox3.Size = new System.Drawing.Size(122, 21);
             this.NBox3.TabIndex = 8;
@@ -656,34 +670,37 @@
             this.NWBox1.Size = new System.Drawing.Size(122, 21);
             this.NWBox1.TabIndex = 8;
             // 
-            // Form1
+            // OWTBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.South);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.South.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox4.ResumeLayout(false);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(674, 461);
+            this.Controls.Add(this.NorthEastBox);
+            this.Controls.Add(this.NorthBox);
+            this.Controls.Add(this.NorthWestBox);
+            this.Controls.Add(this.SouthEastBox);
+            this.Controls.Add(this.SouthWestBox);
+            this.Name = "OWTBox";
+            this.Text = "Overworld Tracker";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.SouthWestBox.ResumeLayout(false);
+            this.SouthEastBox.ResumeLayout(false);
+            this.NorthWestBox.ResumeLayout(false);
+            this.NorthBox.ResumeLayout(false);
+            this.NorthEastBox.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox South;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.GroupBox SouthWestBox;
+        private System.Windows.Forms.GroupBox SouthEastBox;
+        private System.Windows.Forms.GroupBox NorthWestBox;
+        private System.Windows.Forms.GroupBox NorthBox;
+        private System.Windows.Forms.GroupBox NorthEastBox;
         private System.Windows.Forms.ComboBox SWBox1;
         private System.Windows.Forms.ComboBox SWBox5;
         private System.Windows.Forms.ComboBox SWBox4;
